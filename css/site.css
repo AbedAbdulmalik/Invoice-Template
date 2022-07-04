@@ -1,0 +1,28 @@
+.full-width-div {
+    position: absolute;
+    width: 100%;
+    left: 0;
+}
+
+.address{
+    font-size: 0.8rem;
+}
+
+img{
+    height: 7pc;
+}
+
+@media only screen and (min-width: 768px){
+    .address{
+        font-size: 1rem;
+    }
+    img{
+        height: 100%;
+    }
+}
+
+@media print {
+    .address{
+        font-size: 1rem;
+    }
+}
